@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Jogo da Velha</title>
+</head>
+  <body>
+    <header>Jogo da Velha</header>
+    <section class="imgs">
+      <div class="img">
+        <img src="images/o.png" alt="circulo">
+        <img src="images/x.png" alt="x">
+      </div>
+    </section>
+    <section class="caixa">
+      <div class="espaco" id='a1'onclick="escolha(11)"></div>
+      <div class="espaco" id='a2'onclick="escolha(12)"></div>
+      <div class="espaco" id='a3'onclick="escolha(13)"></div>
+
+      <div class="espaco" id='b1'onclick="escolha(21)"></div>
+      <div class="espaco" id='b2'onclick="escolha(22)"></div>
+      <div class="espaco" id='b3'onclick="escolha(23)"></div>
+
+      <div class="espaco" id='c1'onclick="escolha(31)"></div>
+      <div class="espaco" id='c2'onclick="escolha(32)"></div>
+      <div class="espaco" id='c3'onclick="escolha(33)"></div>
+    </section>
+    <div id='vencedor'></div>
+    <div class="reset"><input type="button" class="button" value="RESETAR" onclick="resetar()"></div>
+    <footer></footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
