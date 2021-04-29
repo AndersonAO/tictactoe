@@ -1,0 +1,53 @@
+header{
+    margin-top: 20px;
+    font-size: 50px;
+    margin: auto;
+    width: 312px;
+    text-align: center;
+}
+
+.imgs{
+    margin: auto;
+    width: 312px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.caixa{
+    width: 312px;
+    height: 312px;
+    margin: auto;
+}
+
+.espaco{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+#vencedor{
+    text-align: center;
+}
+.reset{
+    margin-top: 10px;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    
+}
+h2 {
+    font-size: 30px;
+    margin-top: 70px;
+}
+#vencedorimg{
+    margin-top: -20px;
+}
